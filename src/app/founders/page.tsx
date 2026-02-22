@@ -11,14 +11,20 @@ const founders = [
         role: "Founder",
         bio: "A People and Recruiting leader with extensive experience supporting fast-growing AdTech teams. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
         linkedinUrl: "https://www.linkedin.com/in/angeles-pena-podrez/",
-        imageAlt: "Angeles Podrez"
+        imageAlt: "Angeles Podrez",
+        imageUrl: "/images/founders/angeles.jpeg",
+        objectPosition: "center 10%",
+        imageScale: 1.1
     },
     {
         name: "Ornella Castagnoli",
         role: "Co-founder",
         bio: "A tech recruiting professional with extensive experience in IT and technical hiring within consulting and high-growth environments. She specializes in end-to-end recruitment processes for complex technical roles and proactive headhunting.",
         linkedinUrl: "https://www.linkedin.com/in/ocastagnoli/",
-        imageAlt: "Ornella Castagnoli"
+        imageAlt: "Ornella Castagnoli",
+        imageUrl: "/images/founders/orne.jpeg",
+        objectPosition: "center 10%",
+        imageScale: 1.1
     }
 ];
 

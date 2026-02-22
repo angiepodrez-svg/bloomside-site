@@ -33,7 +33,10 @@ export default function ServiceCard({ title, description, icon: Icon, index }: S
             </p>
 
             <div className="mt-auto pt-8">
-                <button className="text-sm font-bold tracking-wider text-brand-blue hover:text-brand-blue-light transition-colors flex items-center gap-2 uppercase">
+                <a 
+                    href="#contact"
+                    className="text-sm font-bold tracking-wider text-brand-blue hover:text-brand-blue-light transition-colors flex items-center gap-2 uppercase cursor-pointer"
+                >
                     Learn More
                     <motion.span
                         animate={{ x: [0, 4, 0] }}
@@ -41,7 +44,7 @@ export default function ServiceCard({ title, description, icon: Icon, index }: S
                     >
                         →
                     </motion.span>
-                </button>
+                </a>
             </div>
         </motion.div>
     );

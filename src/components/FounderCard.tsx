@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Linkedin } from 'lucide-react';
 
 interface FounderCardProps {
@@ -10,10 +11,13 @@ interface FounderCardProps {
     bio: string;
     linkedinUrl: string;
     imageAlt: string;
+    imageUrl?: string;
+    objectPosition?: string;
+    imageScale?: number;
     index: number;
 }
 
-export default function FounderCard({ name, role, bio, linkedinUrl, imageAlt, index }: FounderCardProps) {
+export default function FounderCard({ name, role, bio, linkedinUrl, imageAlt, imageUrl, objectPosition, imageScale, index }: FounderCardProps) {
     return (
         <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -22,11 +26,26 @@ export default function FounderCard({ name, role, bio, linkedinUrl, imageAlt, in
             className="glass-card p-8 rounded-3xl flex flex-col items-center text-center group transition-all hover:border-brand-blue/30"
         >
             <div className="relative mb-6">
-                {/* Profile Image Placeholder */}
-                <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-brand-blue/20 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center group-hover:border-brand-blue/50 transition-colors">
-                    <div className="w-full h-full bg-slate-800 flex items-center justify-center text-3xl font-bold text-slate-600">
-                        {name.split(' ').map(n => n[0]).join('')}
-                    </div>
+                {/* Profile Image Container */}
+                <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-brand-blue/20 bg-gradient-to-br from-slate-800 to-slate-900 group-hover:border-brand-blue/50 transition-colors relative">
+                    {imageUrl ? (
+                        <Image
+                            src={imageUrl}
+                            alt={imageAlt}
+                            fill
+                            sizes="(max-width: 768px) 128px, 128px"
+                            priority={index < 2}
+                            className="object-cover transition-transform duration-500"
+                            style={{
+                                objectPosition: objectPosition || 'center 30%',
+                                transform: `scale(${imageScale || 1})`
+                            }}
+                        />
+                    ) : (
+                        <div className="w-full h-full bg-slate-800 flex items-center justify-center text-3xl font-bold text-slate-600">
+                            {name.split(' ').map(n => n[0]).join('')}
+                        </div>
+                    )}
                 </div>
                 <div className="absolute -bottom-2 -right-2 bg-brand-blue p-2 rounded-full shadow-lg group-hover:scale-110 transition-transform">
                     <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-white">
