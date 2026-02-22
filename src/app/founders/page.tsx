@@ -8,7 +8,7 @@ import ContactCTA from '@/components/ContactCTA';
 const founders = [
     {
         name: "Angeles Podrez",
-        role: "Founder",
+        role: "Co-founder",
         bio: "A People and Recruiting leader with extensive experience supporting fast-growing AdTech teams. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
         linkedinUrl: "https://www.linkedin.com/in/angeles-pena-podrez/",
         imageAlt: "Angeles Podrez",
