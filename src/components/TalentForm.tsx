@@ -157,10 +157,20 @@ export default function TalentForm() {
                     className="w-full bg-slate-900/50 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brand-blue transition-colors font-sans appearance-none"
                 >
                     <option value="" disabled>Select your expertise</option>
-                    <option value="Programmatic">Programmatic</option>
-                    <option value="Data">Data</option>
-                    <option value="Product">Product</option>
-                    <option value="Ops">Ops</option>
+                    <option value="Sales & Client Services">Sales & Client Services</option>
+                    <option value="Account Management">Account Management</option>
+                    <option value="Ad Operations & Campaign Management">Ad Operations & Campaign Management</option>
+                    <option value="Programmatic Strategy & Yield">Programmatic Strategy & Yield</option>
+                    <option value="Data, Analytics & Insights">Data, Analytics & Insights</option>
+                    <option value="Product Management">Product Management</option>
+                    <option value="Software Engineering & Tech">Software Engineering & Tech</option>
+                    <option value="Solutions Architecture / Sales Engineering">Solutions Architecture / Sales Engineering</option>
+                    <option value="Marketing & Growth">Marketing & Growth</option>
+                    <option value="Partnerships & Alliances">Partnerships & Alliances</option>
+                    <option value="Executive Leadership">Executive Leadership</option>
+                    <option value="HR & Talent Acquisition">HR & Talent Acquisition</option>
+                    <option value="Finance & Operations">Finance & Operations</option>
+                    <option value="Other">Other</option>
                 </select>
             </div>
 
@@ -241,7 +251,7 @@ export default function TalentForm() {
                         Processing Application...
                     </>
                 ) : (
-                    "Join Talent Network"
+                    "Join the Community & Upload CV"
                 )}
             </button>
 

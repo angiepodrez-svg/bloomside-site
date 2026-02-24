@@ -8,22 +8,22 @@ import ContactCTA from '@/components/ContactCTA';
 
 const services = [
     {
-        title: "Full-Time Placement",
+        title: "Architecture Search",
         description: "End-to-end specialized headhunting for elite Programmatic, Product, and Data talent. We find the architects of your digital advertising ecosystem.",
         icon: Users,
     },
     {
-        title: "Proactive Pipeline",
+        title: "The Bloomside Node",
         description: "A subscription-based model. Pay a monthly recurring fee to receive a curated, pre-vetted list of top-tier AdTech talent proactively, before you even need to hire.",
         icon: Database,
     },
     {
-        title: "Recruitment Strategy & Ops",
+        title: "GTM & Tech Scaling Modules",
         description: "We build your recruiting machine from scratch. From ATS implementation and hiring manager training to designing end-to-end evaluation, interviewing, and closing processes. We scale your internal capabilities.",
         icon: Settings,
     },
     {
-        title: "AdTech Market Insights",
+        title: "AdTech Market Intelligence",
         description: "Deep-dive consultancy on the competitive landscape. We help you understand salary benchmarks, talent availability, and competitor organizational structures.",
         icon: BarChart3,
     }
@@ -43,10 +43,10 @@ export default function ServicesPage() {
                         Our Expertise
                     </span>
                     <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tight text-gradient mb-6">
-                        Recruiting Services
+                        Talent Infrastructure
                     </h1>
                     <p className="font-sans max-w-2xl mx-auto text-lg text-slate-400">
-                        Tailored solutions designed to scale your AdTech teams with precision, speed, and strategic depth.
+                        Strategic modules designed to scale your AdTech engine with domain precision, speed, and structural depth.
                     </p>
                 </motion.div>
 
