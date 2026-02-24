@@ -23,8 +23,8 @@ const services = [
         icon: Settings,
     },
     {
-        title: "AdTech Market Intelligence",
-        description: "Deep-dive consultancy on the competitive landscape. We help you understand salary benchmarks, talent availability, and competitor organizational structures.",
+        title: "LATAM Talent Solutions",
+        description: "Scale your teams efficiently by tapping into the high-performing AdTech talent pool in LATAM. We provide end-to-end recruitment support, helping you navigate local markets, salary benchmarks, and cultural fit to accelerate your regional growth.",
         icon: BarChart3,
     }
 ];
