@@ -15,6 +15,7 @@ export default function Navigation() {
           <Link href="/founders" className="hover:text-white transition-colors">Founders</Link>
           <Link href="/services" className="hover:text-white transition-colors">Services</Link>
           <Link href="/talent" className="hover:text-white transition-colors">Talent</Link>
+          <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
         </div>
         <motion.a
           href="https://calendly.com/angie-bloomside/30min"
