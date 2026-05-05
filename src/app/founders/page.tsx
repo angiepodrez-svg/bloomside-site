@@ -9,7 +9,7 @@ const founders = [
     {
         name: "Angeles Podrez",
         role: "Co-founder",
-        bio: "A People and Recruiting leader with extensive experience supporting fast-growing AdTech teams. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
+        bio: "A People and Recruiting leader with extensive experience building teams from the ground up. Former Head of People at Memorable, an AI company acquired by Reddit. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
         linkedinUrl: "https://www.linkedin.com/in/angeles-pena-podrez/",
         imageAlt: "Angeles Podrez",
         imageUrl: "/images/founders/angeles.jpeg",
@@ -19,7 +19,7 @@ const founders = [
     {
         name: "Ornella Castagnoli",
         role: "Co-founder",
-        bio: "A tech recruiting professional with extensive experience in IT and technical hiring within consulting and high-growth environments. She specializes in end-to-end recruitment processes for complex technical roles and proactive headhunting.",
+        bio: "A recruiting professional with extensive experience in technical and non-technical hiring within consulting and high-growth environments. She specializes in end-to-end recruitment processes and proactive headhunting across a wide range of roles and seniority levels.",
         linkedinUrl: "https://www.linkedin.com/in/ocastagnoli/",
         imageAlt: "Ornella Castagnoli",
         imageUrl: "/images/founders/orne.jpeg",
@@ -45,7 +45,7 @@ export default function FoundersPage() {
                         The Minds Behind Bloomside
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg text-slate-400 mb-8">
-                        Passionate recruiters dedicated to bridging the gap between elite talent and game-changing AdTech platforms.
+                        Passionate recruiters dedicated to connecting exceptional talent with the companies that need them most.
                     </p>
                     <p className="max-w-3xl mx-auto text-slate-300 italic text-lg leading-relaxed border-l-2 border-brand-blue/30 pl-6 py-2">
                         "At Bloomside, we don't just fill seats. We believe in the power of community. Our mission is to connect talent in a way that creates long-term value and professional growth for everyone involved."

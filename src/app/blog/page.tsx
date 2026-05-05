@@ -21,10 +21,10 @@ export default function BlogPage() {
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-0 relative z-10">
                 <div className="max-w-3xl mb-16">
                     <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
-                        The <span className="text-gradient hover-glow">AdTech Talent Brief.</span>
+                        <span className="text-gradient hover-glow">Hiring Insights.</span>
                     </h1>
                     <p className="font-sans text-lg md:text-xl text-slate-400 leading-relaxed max-w-2xl">
-                        What's moving in the industry and what it means for the people building these teams.
+                        Trends, talent, and what's actually happening in recruiting right now.
                     </p>
                 </div>
 

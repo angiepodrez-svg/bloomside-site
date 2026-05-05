@@ -8,24 +8,19 @@ import ContactCTA from '@/components/ContactCTA';
 
 const services = [
     {
-        title: "Architecture Search",
-        description: "End-to-end specialized headhunting for elite Programmatic, Product, and Data talent. We find the architects of your digital advertising ecosystem.",
+        title: "End-to-End Recruiting",
+        description: "We learn your company's stage, the role you're looking for, and how it fits your team. Then we find the right person.",
         icon: Users,
     },
     {
-        title: "The Bloomside Node",
-        description: "A subscription-based model. Pay a monthly recurring fee to receive a curated, pre-vetted list of top-tier AdTech talent proactively, before you even need to hire.",
+        title: "Talent Subscription",
+        description: "Always have an open role? Subscribe and receive a curated shortlist of vetted candidates every week, without starting from scratch each time.",
         icon: Database,
     },
     {
-        title: "GTM & Tech Scaling Modules",
-        description: "We build your recruiting machine from scratch. From ATS implementation and hiring manager training to designing end-to-end evaluation, interviewing, and closing processes. We scale your internal capabilities.",
+        title: "LATAM Team Building",
+        description: "For international companies looking to hire in LATAM. We help you build your team and set up your entire hiring structure from the ground up.",
         icon: Settings,
-    },
-    {
-        title: "LATAM Talent Solutions",
-        description: "Scale your teams efficiently by tapping into the high-performing AdTech talent pool in LATAM. We provide end-to-end recruitment support, helping you navigate local markets, salary benchmarks, and cultural fit to accelerate your regional growth.",
-        icon: BarChart3,
     }
 ];
 
@@ -40,13 +35,13 @@ export default function ServicesPage() {
                     className="text-center mb-20"
                 >
                     <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-blue uppercase bg-brand-blue/10 border border-brand-blue/20 rounded-full">
-                        Our Expertise
+                        TALENT SOLUTIONS
                     </span>
                     <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tight text-gradient mb-6">
-                        Talent Infrastructure
+                        Talent Solutions
                     </h1>
                     <p className="font-sans max-w-2xl mx-auto text-lg text-slate-400">
-                        Strategic modules designed to scale your AdTech engine with domain precision, speed, and structural depth.
+                        Every client gets access to our candidate community. We're constantly interviewing profiles across Tech, Data, Marketing, Product, Sales, Account Management, Design, and more.
                     </p>
                 </motion.div>
 

@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bloomside | AdTech Talent, Decoded",
-  description: "Bridging the gap between elite Programmatic/Product talent and world-class AdTech platforms.",
+  title: "Bloomside | Strategic Talent & Community Builders",
+  description: "Scaling the Commercial, Account Management, and Operations teams that drive the digital economy.",
 };
 
 export default function RootLayout({

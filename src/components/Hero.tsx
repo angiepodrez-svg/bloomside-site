@@ -21,18 +21,18 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-blue uppercase bg-brand-blue/10 border border-brand-blue/20 rounded-full">
-                        The Future of AdTech Recruitment
+                        STRATEGIC TALENT & COMMUNITY BUILDERS
                     </span>
                     <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight text-gradient">
                         Architecture for <br />
-                        AdTech Teams.
+                        Revenue & Growth Teams.
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-10 leading-relaxed">
-                        Scaling the GTM and Tech teams that power the digital advertising ecosystem. Beyond hiring—we build proprietary talent infrastructure for high-growth platforms.
+                        Scaling the Commercial, Account Management, and Operations teams that drive the digital economy. We build the talent infrastructure that connects high-growth platforms with strategic business goals.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link href="/services#services" className="w-full sm:w-auto px-8 py-4 bg-brand-blue text-white rounded-xl font-bold text-lg hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all hover:-translate-y-1 block text-center">
-                            Hire Specialized Talent
+                            Build your Team
                         </Link>
                         <Link href="/talent#talent" className="w-full sm:w-auto px-8 py-4 glass text-white rounded-xl font-bold text-lg hover:bg-white/10 transition-all block text-center">
                             I'm a Candidate

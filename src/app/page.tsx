@@ -10,24 +10,19 @@ import { Users, Database, Settings, BarChart3 } from 'lucide-react';
 
 const homeServices = [
   {
-    title: "Architecture Search",
-    description: "End-to-end specialized headhunting for elite Programmatic, Product, and Data talent. We find the architects of your digital advertising ecosystem.",
+    title: "End-to-End Recruiting",
+    description: "We learn your company's stage, the role you're looking for, and how it fits your team. Then we find the right person.",
     icon: Users,
   },
   {
-    title: "The Bloomside Node",
-    description: "A subscription-based model. Pay a monthly recurring fee to receive a curated, pre-vetted list of top-tier AdTech talent proactively, before you even need to hire.",
+    title: "Talent Subscription",
+    description: "Always have an open role? Subscribe and receive a curated shortlist of vetted candidates every week, without starting from scratch each time.",
     icon: Database,
   },
   {
-    title: "GTM & Tech Scaling Modules",
-    description: "We build your recruiting machine from scratch. From ATS implementation and hiring manager training to designing end-to-end evaluation, interviewing, and closing processes. We scale your internal capabilities.",
+    title: "LATAM Team Building",
+    description: "For international companies looking to hire in LATAM. We help you build your team and set up your entire hiring structure from the ground up.",
     icon: Settings,
-  },
-  {
-    title: "LATAM Talent Solutions",
-    description: "Scale your teams efficiently by tapping into the high-performing AdTech talent pool in LATAM. We provide end-to-end recruitment support, helping you navigate local markets, salary benchmarks, and cultural fit to accelerate your regional growth.",
-    icon: BarChart3,
   }
 ];
 
@@ -35,7 +30,7 @@ const homeFounders = [
   {
     name: "Angeles Podrez",
     role: "Co-founder",
-    bio: "A People and Recruiting leader with extensive experience supporting fast-growing AdTech teams. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
+    bio: "A People and Recruiting leader with extensive experience building teams from the ground up. Former Head of People at Memorable, an AI company acquired by Reddit. A trusted HR and recruiting partner to founders and leadership teams, bringing clarity, context, and a thoughtful approach to hiring.",
     linkedinUrl: "https://www.linkedin.com/in/angeles-pena-podrez/",
     imageAlt: "Angeles Podrez",
     imageUrl: "/images/founders/angeles.jpeg",
@@ -45,7 +40,7 @@ const homeFounders = [
   {
     name: "Ornella Castagnoli",
     role: "Co-founder",
-    bio: "A tech recruiting professional with extensive experience in IT and technical hiring within consulting and high-growth environments. She specializes in end-to-end recruitment processes for complex technical roles and proactive headhunting.",
+    bio: "A recruiting professional with extensive experience in technical and non-technical hiring within consulting and high-growth environments. She specializes in end-to-end recruitment processes and proactive headhunting across a wide range of roles and seniority levels.",
     linkedinUrl: "https://www.linkedin.com/in/ocastagnoli/",
     imageAlt: "Ornella Castagnoli",
     imageUrl: "/images/founders/orne.jpeg",
@@ -70,7 +65,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-blue uppercase bg-brand-blue/10 border border-brand-blue/20 rounded-full">
-              Talent Infrastructure
+              TALENT SOLUTIONS
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-tight text-gradient mb-4">
               Our Capabilities
