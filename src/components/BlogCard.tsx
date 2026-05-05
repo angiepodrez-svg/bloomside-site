@@ -11,7 +11,7 @@ export default function BlogCard({ post }: { post: Omit<BlogPost, 'content'> }) 
                     {post.title}
                 </h3>
 
-                <p className="font-sans text-slate-400 mb-6 flex-grow leading-relaxed">
+                <p className="font-sans text-slate-400 mb-6 flex-grow leading-relaxed text-lg">
                     {post.excerpt}
                 </p>
 

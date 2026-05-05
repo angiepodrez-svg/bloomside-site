@@ -92,7 +92,7 @@ export default function TalentForm() {
                     <CheckCircle2 className="text-green-500 w-10 h-10" />
                 </motion.div>
                 <h2 className="font-serif text-3xl font-bold text-white mb-4">Application Sent!</h2>
-                <p className="text-slate-400 font-sans text-lg mb-8">
+                <p className="text-slate-400 font-sans text-xl mb-8">
                     Thank you for joining our network. We've received your CV and details.
                     Check your email for a confirmation message.
                 </p>
