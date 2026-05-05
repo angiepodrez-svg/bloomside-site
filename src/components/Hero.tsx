@@ -27,7 +27,7 @@ export default function Hero() {
                         Architecture for <br />
                         Revenue & Growth Teams.
                     </h1>
-                    <p className="max-w-2xl mx-auto text-xl md:text-2xl text-slate-400 mb-10 leading-relaxed">
+                    <p className="max-w-2xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium mb-10 leading-relaxed">
                         Scaling the Commercial, Account Management, and Operations teams that drive the digital economy. We build the talent infrastructure that connects high-growth platforms with strategic business goals.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

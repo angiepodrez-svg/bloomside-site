@@ -23,7 +23,7 @@ export default function BlogPage() {
                     <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
                         <span className="text-gradient hover-glow">Hiring Insights.</span>
                     </h1>
-                    <p className="font-sans text-xl md:text-2xl text-slate-400 leading-relaxed max-w-2xl">
+                    <p className="font-sans text-2xl md:text-3xl text-slate-300 font-medium leading-relaxed max-w-2xl">
                         Trends, talent, and what's actually happening in recruiting right now.
                     </p>
                 </div>

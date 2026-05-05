@@ -28,7 +28,7 @@ export default function ServiceCard({ title, description, icon: Icon, index }: S
                 {title}
             </h3>
 
-            <p className="text-slate-400 leading-relaxed font-sans text-lg">
+            <p className="text-slate-300 font-medium leading-relaxed font-sans text-xl">
                 {description}
             </p>
 
