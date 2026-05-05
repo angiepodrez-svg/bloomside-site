@@ -26,11 +26,11 @@ export default function ContactCTA() {
                             </span>
 
                             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
-                                Ready to scale your <span className="text-gradient">AdTech team?</span>
+                                Ready to find your <span className="text-gradient">next great hire?</span>
                             </h2>
 
                             <p className="font-sans text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                                Whether you need specialized talent or want to build your recruitment operations from scratch, let's talk.
+                                Whether you need one key hire or want to build an entire team, we're ready to help.
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
