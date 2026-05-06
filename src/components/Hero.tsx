@@ -24,17 +24,12 @@ export default function Hero() {
                         STRATEGIC TALENT & COMMUNITY BUILDERS
                     </span>
                     <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight text-gradient">
-                        Architecture for <br />
-                        Revenue & Growth Teams.
+                        Built on trust. <br />
+                        Powered by community.
                     </h1>
-                    <div className="max-w-3xl mx-auto mb-10">
-                        <p className="text-2xl md:text-3xl text-slate-200 font-medium mb-4 leading-relaxed">
-                            Built on trust. Powered by community.
-                        </p>
-                        <p className="text-xl md:text-2xl text-slate-400 font-medium leading-relaxed">
-                            We build your team at any stage — from technical roles to commercial, creative, and operations.
-                        </p>
-                    </div>
+                    <p className="max-w-3xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium mb-10 leading-relaxed">
+                        We build your team at any stage — from technical roles to commercial, creative, and operations.
+                    </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link href="/services" className="w-full sm:w-auto px-8 py-4 bg-brand-blue text-white rounded-xl font-bold text-lg hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all hover:-translate-y-1 block text-center">
                             Build your Team
