@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Hero from "@/components/Hero";
 import ContactCTA from "@/components/ContactCTA";
+import VideoSection from "@/components/VideoSection";
 import ServiceCard from "@/components/ServiceCard";
 import FounderCard from "@/components/FounderCard";
 import { Users, Database, Settings, BarChart3 } from 'lucide-react';
@@ -53,6 +54,7 @@ export default function Home() {
   return (
     <main className="mesh-gradient min-h-screen">
       <Hero />
+      <VideoSection />
 
       {/* Services Section */}
       <section id="services" className="py-24 relative z-10">

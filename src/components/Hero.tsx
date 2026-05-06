@@ -31,10 +31,10 @@ export default function Hero() {
                         Scaling the Commercial, Account Management, and Operations teams that drive the digital economy. We build the talent infrastructure that connects high-growth platforms with strategic business goals.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Link href="/services#services" className="w-full sm:w-auto px-8 py-4 bg-brand-blue text-white rounded-xl font-bold text-lg hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all hover:-translate-y-1 block text-center">
+                        <Link href="/services" className="w-full sm:w-auto px-8 py-4 bg-brand-blue text-white rounded-xl font-bold text-lg hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all hover:-translate-y-1 block text-center">
                             Build your Team
                         </Link>
-                        <Link href="/talent#talent" className="w-full sm:w-auto px-8 py-4 glass text-white rounded-xl font-bold text-lg hover:bg-white/10 transition-all block text-center">
+                        <Link href="/talent" className="w-full sm:w-auto px-8 py-4 glass text-white rounded-xl font-bold text-lg hover:bg-white/10 transition-all block text-center">
                             I'm a Candidate
                         </Link>
                     </div>
