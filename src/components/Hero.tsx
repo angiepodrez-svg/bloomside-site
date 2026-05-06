@@ -38,6 +38,31 @@ export default function Hero() {
                             I'm a Candidate
                         </Link>
                     </div>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 40 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                        className="max-w-5xl mx-auto w-full mt-16"
+                    >
+                        <div className="glass-card p-2 md:p-4 rounded-[2rem] md:rounded-[2.5rem] relative overflow-hidden group border border-brand-blue/20 hover:border-brand-blue/40 transition-colors duration-500 shadow-[0_0_50px_rgba(37,99,235,0.1)]">
+                            <div className="absolute -top-24 -right-24 w-64 h-64 bg-brand-blue/10 rounded-full blur-[80px] transition-colors duration-500" />
+                            <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-blue-600/10 rounded-full blur-[80px]" />
+
+                            <div className="relative z-10 aspect-video rounded-3xl md:rounded-[2rem] overflow-hidden bg-slate-900 border border-white/5">
+                                <iframe
+                                    width="100%"
+                                    height="100%"
+                                    src="https://www.youtube.com/embed/t8Xd9sQSZ6o?autoplay=0&rel=0&modestbranding=1"
+                                    title="Bloomside Founders"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                    className="w-full h-full object-cover"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </motion.div>
                 </motion.div>
             </div>
 
