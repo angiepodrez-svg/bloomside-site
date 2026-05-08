@@ -7,7 +7,7 @@ import ContactCTA from '@/components/ContactCTA';
 
 export default function TalentPage() {
     return (
-        <main id="talent" className="min-h-screen pt-32 pb-20 mesh-gradient relative overflow-hidden">
+        <main id="talent" className="min-h-screen pt-40 md:pt-48 pb-20 mesh-gradient relative overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col items-center">
                     <motion.div
@@ -25,11 +25,11 @@ export default function TalentPage() {
                         <p className="font-sans max-w-2xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium leading-relaxed mb-8">
                             We don't just match candidates. We build a community of high-performance talent across Tech, Data, Marketing, Product, Sales, Account Management, and Design.
                         </p>
-                        <div className="max-w-3xl mx-auto text-slate-200 italic text-2xl md:text-3xl leading-relaxed border-l-2 border-brand-blue/30 pl-6 py-4 mb-12 text-left">
+                        <div className="max-w-4xl mx-auto text-slate-100 italic text-3xl md:text-4xl leading-relaxed border-l-4 border-brand-blue/50 pl-8 py-6 my-16 text-left">
                             <span className="block mb-2 font-bold text-brand-blue uppercase tracking-widest text-xs">The Bloomside Way</span>
                             "When you join our community, you get access to a global network of companies actively looking for people like you. We know your profile before a role even opens up."
                         </div>
-                        <p className="font-sans max-w-2xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium leading-relaxed mb-6">
+                        <p className="font-sans max-w-2xl mx-auto text-lg md:text-xl text-slate-400 leading-relaxed mb-20">
                             When you join our community, you aren't just entering a database. You're being represented by a team that proactively presents your profile to the right companies at the right time.
                         </p>
                     </motion.div>
