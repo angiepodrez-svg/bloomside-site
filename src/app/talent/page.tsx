@@ -7,7 +7,7 @@ import ContactCTA from '@/components/ContactCTA';
 
 export default function TalentPage() {
     return (
-        <main id="talent" className="min-h-screen pt-40 md:pt-48 pb-20 mesh-gradient relative overflow-hidden">
+        <main id="talent" className="min-h-screen mesh-gradient relative overflow-hidden" style={{ paddingTop: '160px' }}>
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col items-center">
                     <motion.div
