@@ -112,49 +112,49 @@ export default function TalentForm() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             onSubmit={handleSubmit}
-            className="glass-card p-10 md:p-16 rounded-[2.5rem] w-full max-w-4xl mx-auto space-y-8"
+            className="glass-card p-12 md:p-20 rounded-[3rem] w-full max-w-5xl mx-auto space-y-10"
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                    <label className="text-lg font-semibold text-slate-300 ml-2 mb-2 block">Full Name</label>
+                    <label className="text-xl md:text-2xl font-semibold text-slate-300 ml-3 mb-3 block">Full Name</label>
                     <input
                         required
                         name="name"
                         type="text"
                         placeholder="John Doe"
-                        className="w-full bg-slate-900/50 border border-slate-800 rounded-2xl px-6 py-6 text-xl text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
+                        className="w-full bg-slate-900/50 border border-slate-800 rounded-3xl px-8 py-8 text-2xl placeholder:text-slate-500 text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
                     />
                 </div>
                 <div className="space-y-2">
-                    <label className="text-lg font-semibold text-slate-300 ml-2 mb-2 block">Email Address</label>
+                    <label className="text-xl md:text-2xl font-semibold text-slate-300 ml-3 mb-3 block">Email Address</label>
                     <input
                         required
                         name="email"
                         type="email"
                         placeholder="john@example.com"
-                        className="w-full bg-slate-900/50 border border-slate-800 rounded-2xl px-6 py-6 text-xl text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
+                        className="w-full bg-slate-900/50 border border-slate-800 rounded-3xl px-8 py-8 text-2xl placeholder:text-slate-500 text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
                     />
                 </div>
             </div>
 
             <div className="space-y-2">
-                <label className="text-lg font-semibold text-slate-300 ml-2 mb-2 block">LinkedIn Profile URL</label>
+                <label className="text-xl md:text-2xl font-semibold text-slate-300 ml-3 mb-3 block">LinkedIn Profile URL</label>
                 <input
                     required
                     name="linkedin"
                     type="url"
                     placeholder="https://linkedin.com/in/username"
-                    className="w-full bg-slate-900/50 border border-slate-800 rounded-2xl px-6 py-6 text-xl text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
+                    className="w-full bg-slate-900/50 border border-slate-800 rounded-3xl px-8 py-8 text-2xl placeholder:text-slate-500 text-white focus:outline-none focus:border-brand-blue transition-colors font-sans"
                 />
             </div>
 
             <div className="space-y-2">
-                <label className="text-lg font-semibold text-slate-300 ml-2 mb-2 block">Area of Expertise</label>
+                <label className="text-xl md:text-2xl font-semibold text-slate-300 ml-3 mb-3 block">Area of Expertise</label>
                 <select
                     required
                     name="expertise"
                     defaultValue=""
-                    className="w-full bg-slate-900/50 border border-slate-800 rounded-2xl px-6 py-6 text-xl text-white focus:outline-none focus:border-brand-blue transition-colors font-sans appearance-none"
+                    className="w-full bg-slate-900/50 border border-slate-800 rounded-3xl px-8 py-8 text-2xl text-white focus:outline-none focus:border-brand-blue transition-colors font-sans appearance-none"
                 >
                     <option value="" disabled>Select your expertise</option>
                     <option value="Sales & Client Services">Sales & Client Services</option>
@@ -175,12 +175,12 @@ export default function TalentForm() {
             </div>
 
             <div className="space-y-2">
-                <label className="text-lg font-semibold text-slate-300 ml-2 mb-2 block">Resume / CV (PDF)</label>
+                <label className="text-xl md:text-2xl font-semibold text-slate-300 ml-3 mb-3 block">Resume / CV (PDF)</label>
                 <div
                     onDragOver={onDragOver}
                     onDragLeave={onDragLeave}
                     onDrop={onDrop}
-                    className={`relative border-2 border-dashed rounded-3xl p-20 transition-all flex flex-col items-center justify-center text-center cursor-pointer ${isDragging ? 'border-brand-blue bg-brand-blue/5' : 'border-slate-800 hover:border-slate-700'
+                    className={`relative border-2 border-dashed rounded-[2.5rem] p-24 transition-all flex flex-col items-center justify-center text-center cursor-pointer ${isDragging ? 'border-brand-blue bg-brand-blue/5' : 'border-slate-800 hover:border-slate-700'
                         } ${file ? 'bg-slate-900/30' : ''}`}
                     onClick={() => !file && fileInputRef.current?.click()}
                 >
@@ -201,9 +201,9 @@ export default function TalentForm() {
                                 exit={{ opacity: 0 }}
                                 className="space-y-2"
                             >
-                                <Upload className="w-16 h-16 text-slate-500 mx-auto mb-4" />
-                                <p className="text-slate-300 font-medium text-xl mb-2">Click to upload or drag & drop</p>
-                                <p className="text-slate-500 text-base uppercase tracking-wider">PDF files only (max 10MB)</p>
+                                <Upload className="w-20 h-20 text-slate-500 mx-auto mb-6" />
+                                <p className="text-slate-300 font-medium text-2xl mb-3">Click to upload or drag & drop</p>
+                                <p className="text-slate-500 text-lg uppercase tracking-wider">PDF files only (max 10MB)</p>
                             </motion.div>
                         ) : (
                             <motion.div
@@ -243,7 +243,7 @@ export default function TalentForm() {
             <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-brand-blue hover:bg-brand-blue-light disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-6 text-xl md:text-2xl rounded-2xl transition-all shadow-[0_0_20px_rgba(37,99,235,0.2)] flex items-center justify-center gap-3 active:scale-[0.98]"
+                className="w-full bg-brand-blue hover:bg-brand-blue-light disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-8 text-2xl md:text-3xl rounded-[2rem] transition-all shadow-[0_0_30px_rgba(37,99,235,0.3)] flex items-center justify-center gap-4 active:scale-[0.98]"
             >
                 {isSubmitting ? (
                     <>
