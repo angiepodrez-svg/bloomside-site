@@ -25,7 +25,7 @@ export default function TalentPage() {
                         <p className="font-sans max-w-2xl mx-auto text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-8">
                             We don't just match candidates. We build a community of high-performance talent across Tech, Data, Marketing, Product, Sales, Account Management, and Design.
                         </p>
-                        <div className="max-w-4xl mx-auto text-slate-200 italic text-2xl md:text-3xl leading-relaxed border-l-4 border-brand-blue/50 pl-8 py-4 mt-12 mb-12 text-left">
+                        <div className="max-w-4xl mx-auto text-slate-200 italic text-xl md:text-2xl leading-relaxed border-l-4 border-brand-blue/50 pl-6 py-4 mt-12 mb-12 text-left">
                             <span className="block mb-3 font-bold text-brand-blue uppercase tracking-widest text-xs">The Bloomside Way</span>
                             "When you join our community, you get access to a global network of companies actively looking for people like you. We know your profile before a role even opens up."
                         </div>

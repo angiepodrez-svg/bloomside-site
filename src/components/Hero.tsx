@@ -23,11 +23,11 @@ export default function Hero() {
                     <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-blue uppercase bg-brand-blue/10 border border-brand-blue/20 rounded-full">
                         STRATEGIC TALENT & COMMUNITY BUILDERS
                     </span>
-                    <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight text-gradient">
+                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 tracking-tight text-gradient">
                         Built on trust. <br />
                         Powered by community.
                     </h1>
-                    <p className="max-w-3xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium mb-10 leading-relaxed">
+                    <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-300 font-normal mb-10 leading-relaxed">
                         We build your team at any stage — from technical roles to commercial, creative, and operations.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

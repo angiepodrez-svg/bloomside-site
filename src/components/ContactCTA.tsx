@@ -29,7 +29,7 @@ export default function ContactCTA() {
                                 Ready to find your <span className="text-gradient">next great hire?</span>
                             </h2>
 
-                            <p className="font-sans text-2xl md:text-3xl text-slate-300 font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
+                            <p className="font-sans text-lg md:text-xl text-slate-300 font-normal mb-12 max-w-2xl mx-auto leading-relaxed">
                                 Whether you need one key hire or want to build an entire team, we're ready to help.
                             </p>
 

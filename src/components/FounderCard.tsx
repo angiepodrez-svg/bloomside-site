@@ -54,10 +54,10 @@ export default function FounderCard({ name, role, bio, linkedinUrl, imageAlt, im
                 </div>
             </div>
 
-            <h3 className="text-2xl font-bold mb-1 text-white">{name}</h3>
+            <h3 className="font-serif text-2xl font-bold mb-1 text-white">{name}</h3>
             <p className="text-brand-blue-light text-sm font-semibold mb-4 tracking-wide uppercase">{role}</p>
 
-            <p className="text-slate-300 font-medium leading-relaxed max-w-sm text-xl">
+            <p className="text-slate-400 font-normal leading-relaxed max-w-sm text-base">
                 {bio}
             </p>
 

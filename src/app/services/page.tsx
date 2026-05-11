@@ -40,7 +40,7 @@ export default function ServicesPage() {
                     <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tight text-gradient mb-6">
                         Talent Solutions
                     </h1>
-                    <p className="font-sans max-w-2xl mx-auto text-2xl md:text-3xl text-slate-300 font-medium">
+                    <p className="font-sans max-w-2xl mx-auto text-lg md:text-xl text-slate-300 font-normal leading-relaxed">
                         Every client gets access to our candidate community. We're constantly interviewing profiles across Tech, Data, Marketing, Product, Sales, Account Management, Design, and more.
                     </p>
                 </motion.div>
