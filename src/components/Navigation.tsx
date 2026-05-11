@@ -7,11 +7,11 @@ import { motion } from 'framer-motion';
 export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center p-6">
-      <div className="glass px-12 py-5 rounded-full flex items-center space-x-12">
-        <Link href="/" className="text-3xl md:text-4xl font-bold tracking-tighter hover:text-brand-blue transition-colors">
+      <div className="glass px-14 py-6 rounded-full flex items-center space-x-14">
+        <Link href="/" className="text-4xl md:text-5xl font-extrabold tracking-tighter hover:text-brand-blue transition-colors">
           BLOOMSIDE
         </Link>
-        <div className="hidden md:flex items-center space-x-10 text-lg font-medium text-slate-300">
+        <div className="hidden md:flex items-center space-x-12 text-xl font-medium text-slate-300">
           <Link href="/founders" className="hover:text-white transition-colors">Founders</Link>
           <Link href="/services" className="hover:text-white transition-colors">Services</Link>
           <Link href="/talent" className="hover:text-white transition-colors">Talent</Link>
@@ -23,7 +23,7 @@ export default function Navigation() {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-brand-blue hover:bg-brand-blue-light text-white px-8 py-3 rounded-full text-lg font-semibold transition-all shadow-[0_0_20px_rgba(37,99,235,0.2)]"
+          className="bg-brand-blue hover:bg-brand-blue-light text-white px-10 py-4 rounded-full text-xl font-bold transition-all shadow-[0_0_20px_rgba(37,99,235,0.2)]"
         >
           Get in Touch
         </motion.a>
