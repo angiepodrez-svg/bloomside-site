@@ -44,10 +44,10 @@ export default function FoundersPage() {
                     <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gradient mb-6">
                         The Minds Behind Bloomside
                     </h1>
-                    <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-8">
+                    <p className="max-w-2xl mx-auto text-xl md:text-2xl text-slate-300 font-medium leading-relaxed mb-8">
                         Passionate recruiters dedicated to connecting exceptional talent with the companies that need them most.
                     </p>
-                    <p className="max-w-3xl mx-auto text-slate-200 italic text-xl md:text-2xl leading-relaxed border-l-4 border-brand-blue/50 pl-6 py-2">
+                    <p className="max-w-3xl mx-auto text-slate-200 italic text-2xl md:text-3xl leading-relaxed border-l-4 border-brand-blue/50 pl-6 py-2">
                         "At Bloomside, we don't just fill seats. We believe in the power of community. Our mission is to connect talent in a way that creates long-term value and professional growth for everyone involved."
                     </p>
                 </motion.div>

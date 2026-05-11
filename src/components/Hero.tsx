@@ -27,7 +27,7 @@ export default function Hero() {
                         Built on trust. <br />
                         Powered by community.
                     </h1>
-                    <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-300 font-normal mb-10 leading-relaxed">
+                    <p className="max-w-3xl mx-auto text-xl md:text-2xl text-slate-300 font-medium mb-10 leading-relaxed">
                         We build your team at any stage — from technical roles to commercial, creative, and operations.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
